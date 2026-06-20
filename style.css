@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-color:#fff3f8;
+    color:#444;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+
+header{
+    background-color:#f7b7cf;
+    text-align:center;
+    padding:18px;
+    border-bottom:5px solid #e88caf;
+    border-radius:0 0 25px 25px;
+}
+
+h1{
+    color:white;
+    margin:5px;
+    font-size:42px;
+    letter-spacing:1px;
+}
+
+header p{
+    color:white;
+    margin:5px;
+    font-style:italic;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+    margin:15px 0 5px 0;
+}
+
+nav li{
+    display:inline-block;
+    margin:6px;
+}
+
+nav a{
+    background-color:white;
+    color:#d16b86;
+    text-decoration:none;
+    font-weight:bold;
+    padding:8px 14px;
+    border-radius:20px;
+}
+
+nav a:hover{
+    background-color:#ffe1ec;
+    color:#b94f6b;
+}
+
+article{
+    background-color:white;
+    padding:28px;
+    margin-top:25px;
+    border-radius:20px;
+    box-shadow:0px 4px 12px rgba(0,0,0,.12);
+    border:2px solid #ffd6e5;
+}
+
+h2{
+    color:#d16b86;
+    border-bottom:2px solid #ffd6e5;
+    padding-bottom:6px;
+}
+
+h3{
+    color:#c75f7b;
+}
+
+p{
+    line-height:1.6;
+}
+
+ul{
+    line-height:1.8;
+}
+
+.employee, .product{
+    background-color:#fff7fa;
+    padding:18px;
+    margin:18px;
+    border-radius:18px;
+    text-align:center;
+    border:2px solid #ffd6e5;
+}
+
+.employee img, .product img{
+    width:220px;
+    border-radius:18px;
+    border:3px solid #f8c8dc;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    background-color:white;
+}
+
+th{
+    background-color:#f7b7cf;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid #f3c1d1;
+    padding:12px;
+    text-align:center;
+}
+
+td img{
+    border-radius:12px;
+    border:2px solid #ffd6e5;
+}
+
+a{
+    color:#c75f7b;
+}
+
+a:hover{
+    color:#9f3f5c;
+}
+
+iframe{
+    border-radius:15px;
+    border:2px solid #ffd6e5;
+}
+
+.social{
+    width:45px;
+}
+
+footer{
+    background-color:#e88caf;
+    color:white;
+    text-align:center;
+    padding:14px;
+    margin-top:25px;
+    border-radius:20px 20px 0 0;
+}
